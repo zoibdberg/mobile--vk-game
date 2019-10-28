@@ -3,9 +3,7 @@
 (function() {
 
   var Button, controller, display, game;
-  
-  connect.send('VKWebAppInit', {});
-  
+    
   // basically a rectangle, but it's purpose here is to be a button:
   Button = function(x, y, width, height, color) {
 
